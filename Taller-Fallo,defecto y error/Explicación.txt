@@ -1,0 +1,9 @@
+El ejercicio que se implementó trata de un login por consola en el cual
+el usuario ingresa por consola su usuario y contraseña el cual posee ya datos quemados,
+en este caso son para el usuario:"Juanito" y para la contraseña "1234". El error se 
+introdujo en la sentencia condicional if en el método validarCredenciales, donde a password 
+se lo iguala con el string 1234 de esta manera produciendo un defecto de programación en el
+código haciendo que el momento validar la condición el sistema deniegue el acceso al usuario
+aún teniendo las credenciales correctas teniendo una falla en el logeo del usuario. Esto se 
+soluciona utilizando el .equals como se lo hizo en usuario ya que de esta manera se puede saber si dos objetos son del mismo tipo y tienen 
+los mismos datos. 
